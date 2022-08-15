@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  @include breakpoints-up(sm) {
+    justify-content: center;
+  }
+  @include breakpoints-down(xs) {
+    overflow-x: auto
+  }
+  img {
+    width: 75px;
+    height: auto;
+    margin: $spacing1;
+    filter: grayscale(1) contrast(0.5) brightness(1.5);
+    transition: all 0.3s ease-out;
+    &:hover {
+      filter: none
+    }
+  }
+}

@@ -1,0 +1,202 @@
+.prabayar-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-container{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.option-container{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: #dfdfdf53;
+}
+
+.slide-items{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.topup-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    width: 80px;
+    text-align: center;
+}
+
+.v-slide-group{
+    width: 100%;
+}
+
+.bills-content{
+    width: 100%;
+    padding-left: 82px;
+    padding-right: 82px;
+}
+
+.v-text-field{
+    ::-webkit-outer-spin-button,
+    ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.v-text-field[type=number] {
+  -moz-appearance: textfield;
+}
+}
+
+.nominal{
+    width: 100%;
+    padding-left: 76px;
+    padding-right: 76px;
+}
+
+.v-btn-toggle{
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: 
+    center; 
+    justify-content: flex-start;
+}
+
+.harga{
+    width: 138px;
+    color: #757575; 
+    padding-right: 35px; 
+    padding-left: 35px
+}
+
+.card{
+    border-radius: 2px;
+    color: #000000;
+    border: 1px #4f4f4f solid;
+    background-color: #4f4f4f14;
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-tagihan{
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    b{
+        margin-top: 3px;
+        font-size: 26px;
+        color: #4f4f4f;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .slide-container{
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 100%;
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+
+    .harga{
+        width: 160px;
+        color: #757575; 
+        padding-right: 25px; 
+        padding-left: 25px
+    }
+
+    .option-container{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 30px;
+        margin-top: -75px;
+    }
+    .bills-content{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: -10px;
+    }
+    .nominal{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: -20px;
+    }
+    .v-btn-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width) {
+    .slide-container{
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+
+    .harga{
+        width: 160px;
+        color: #757575; 
+        padding-right: 25px; 
+        padding-left: 25px
+    }
+
+    .option-container{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 30px;
+        margin-top: -75px;
+    }
+    .bills-content{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: -10px;
+    }
+    .nominal{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: -20px;
+    }
+    .v-btn-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

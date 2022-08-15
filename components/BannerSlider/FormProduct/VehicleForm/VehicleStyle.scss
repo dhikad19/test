@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  li {
+    position: relative;
+    padding-left: 1.5em;
+  }
+  li:before {
+    font-weight: bold;
+    content: '✓';
+    position: absolute;
+    color: green;
+    left: 0;
+  }
+li{
+    margin-bottom: 3px;
+    font-size: 15px;
+    text-align: left;
+}
+
+span{
+    margin-right: 5px;
+}

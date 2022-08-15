@@ -1,0 +1,29 @@
+.logo {
+  font-size: 18px;
+  font-weight: $font-bold;
+  @include palette-text-primary;
+  display: flex;
+  img {
+    height: auto;
+    width: 35px;
+  }
+}
+
+.landscape {
+  align-items: center;
+  position: relative;
+  top: -2px;
+  img {
+    width: 38px;
+    @include margin-right($spacing1)
+  }
+}
+
+.portrait {
+  display: block;
+  margin: 0 auto 8px;
+  img {
+    margin: 0 auto $spacing1;
+    display: block;
+  }
+}

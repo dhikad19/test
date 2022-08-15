@@ -1,0 +1,131 @@
+.package-wrap {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    background-color: #F2F2F2;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+span{
+    color: #ad1c24;
+}
+.v-btn{
+    text-transform: capitalize;
+    font-size: 13px;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+  }
+.v-card{
+    z-index: 5;
+}
+.top-wrap{
+    display: flex;
+    text-align: center;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.carousel {
+    margin-top: $spacing1;
+    margin: auto;
+    padding-left: 65px;
+    padding-right: 70px;
+}
+
+.card {
+  height: 220px;
+  overflow: hidden;
+}
+.item {
+  padding: $spacing2
+}
+.top-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding-left: 80px;
+    padding-right: 95px;
+    margin-bottom: 25px;
+    text-align: center;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        .more{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: blue;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .top-wrapper{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        padding-left: 40px;
+        padding-right: 45px;
+        margin-bottom: 25px;
+        text-align: center;
+        justify-content: space-between;
+        a{
+            text-decoration: none;
+            .more{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: blue;
+            }
+        }
+    }    
+    .carousel {
+        margin-top: $spacing1;
+        margin: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .top-wrapper{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        padding-left: 10px;
+        padding-right: 15px;
+        margin-bottom: 25px;
+        text-align: center;
+        justify-content: space-between;
+        h2{
+            font-size: 17px;
+        }
+        a{
+            text-decoration: none;
+            margin-bottom: -14px;
+            .more{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 5px;
+                color: blue;
+                
+            }
+        }
+    }
+    
+    .carousel {
+        margin-top: $spacing1;
+        margin: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

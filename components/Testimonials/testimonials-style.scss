@@ -1,0 +1,79 @@
+span{
+  color: #ad1c24;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.top-wrap{
+  display: flex;
+  text-align: center;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+height: 220px;
+overflow: hidden;
+}
+.item {
+padding: $spacing2
+}
+.testimonial-content{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+p{
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 28px;
+  color: #000000;
+  padding: 15px;
+}
+
+.bio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .v-avatar{
+
+  }
+  .name{
+    margin-top: 10px;
+    color: #000000;
+  }
+}
+
+.caption{
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .testimonial-content{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h2{
+    font-size: 17px;
+  }
+  .testimonial-content{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
